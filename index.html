@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <script src="./node_modules/sweetalert2/dist/sweetalert2.min.js"></script>
+    <link rel="stylesheet" href="./node_modules/sweetalert2/dist/sweetalert2.css">
+</head>
+<body>
+         <script>
+             let user = "User"
+             let numbercheck = ''
+             Swal({
+                 title: 'Спасибо '+user+'!',
+                 text: 'Ваш заказ'+numbercheck+' подтвержден',
+                 type: "success",
+                 imageUrl: './img/2.jpg',
+                 imageWidth: 400,
+                 imageHeight: 200,
+                 imageAlt: 'Custom image',
+                 animation: true,
+                 confirmButtonText:'Ok'
+             })
+         </script>
+</body>
+</html>
